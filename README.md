@@ -49,12 +49,6 @@ All that is required is to put @Repository above the interface declaration and t
 
 - MySQL connector J - (via maven dependencies in pom.xml)
 
-
-MySQL login details:
-
-- username: root
-- password: Ofiri0007!
-
 ---
 
 ## Maven Dependencies
