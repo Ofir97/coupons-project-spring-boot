@@ -1,0 +1,712 @@
+Sat Sep 25 23:25:24 IDT 2021 | Administrator Login failed: Incorrect email(admin@admin.com) or password(admin3) entered.
+
+Sat Sep 25 23:32:48 IDT 2021 | company add failed: company name 'BBB' or email 'comp@gmail.com' already exists.
+
+Sat Sep 25 23:33:29 IDT 2021 | company add failed: company name 'Agadir' or email 'bbb@gmail.com' already exists.
+
+Sat Sep 25 23:33:58 IDT 2021 | company add failed: company name 'Agadir' or email 'agadir@gmail.com' already exists.
+
+Sat Sep 25 23:38:31 IDT 2021 | company add failed: company name 'Hilton' or email 'agadir@gmail.com' already exists.
+
+Sat Sep 25 23:39:11 IDT 2021 | company add failed: company name 'Agadir' or email 'bbb@gmail.com' already exists.
+
+Sat Sep 25 23:40:36 IDT 2021 | company update failed: company id 200 does not exist.
+
+Sat Sep 25 23:41:10 IDT 2021 | company update failed: name of company 30 cannot be updated.
+
+Sat Sep 25 23:43:09 IDT 2021 | company delete failed: company id 248 does not exist.
+
+Sat Sep 25 23:45:19 IDT 2021 | company delete failed: company id 18 does not exist.
+
+Sun Sep 26 12:42:05 IDT 2021 | company update failed: company id 0 does not exist.
+
+Sun Sep 26 12:57:31 IDT 2021 | company id 10 does not exist.
+
+Sun Sep 26 13:05:57 IDT 2021 | customer add failed: customer with email adam11@gmail.com already exists!
+
+Sun Sep 26 13:09:24 IDT 2021 | customer update failed: customer id 0 does not exist.
+
+Sun Sep 26 13:09:51 IDT 2021 | customer update failed: customer id 40 does not exist.
+
+could not execute statement; SQL [n/a]; constraint [customers.email_UNIQUE]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+
+Sun Sep 26 13:14:18 IDT 2021 | customer delete failed: customer id 488 does not exist.
+
+Sun Sep 26 13:35:18 IDT 2021 | customer id 180 does not exist.
+
+Sun Sep 26 17:17:57 IDT 2021 | Company Login failed: Incorrect email(aga@gmail.com) or password(agadir1007) entered.
+
+Sun Sep 26 17:18:16 IDT 2021 | Company Login failed: Incorrect email(aga@gmail.com1) or password(agadir100) entered.
+
+Sun Sep 26 17:23:08 IDT 2021 | coupon add failed: coupon title 'upgrade to suite' already exists in company 24 coupons!
+
+Cannot invoke "com.ofir.coupons.beans.Company.setId(int)" because "company" is null
+
+detached entity passed to persist: com.ofir.coupons.beans.Company; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.ofir.coupons.beans.Company
+
+Sun Sep 26 18:03:25 IDT 2021 | coupon delete failed: coupon id 58 does not exist for company id 24.
+
+Sun Sep 26 18:04:20 IDT 2021 | coupon add failed: coupon title 'double burger discount' already exists in company 24 coupons!
+
+Cannot invoke "com.ofir.coupons.beans.Company.getId()" because the return value of "com.ofir.coupons.beans.Coupon.getCompany()" is null
+
+Sun Sep 26 18:11:48 IDT 2021 | coupon update failed: company id of coupon cannot be updated.
+
+Sun Sep 26 18:24:55 IDT 2021 | coupon update failed: coupon id 59 does not exist for company id 24.
+
+Sun Sep 26 18:26:29 IDT 2021 | coupon update failed: coupon id 590 does not exist for company id 24.
+
+Sun Sep 26 18:30:27 IDT 2021 | coupon update failed: coupon id 0 does not exist for company id 24.
+
+Failed to convert from type [java.lang.Object[]] to type [com.ofir.coupons.beans.Coupon] for value '{52, 24, 4, upgrade to suite, 25% discount for suite uprade, 2021-09-08, 2021-11-05, 8, 700.0, https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/05/16213722/Berlin_city_viewXL.jpg}'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.Integer] to type [com.ofir.coupons.beans.Coupon]
+
+Failed to convert from type [java.lang.Object[]] to type [com.ofir.coupons.beans.Coupon] for value '{52, 24, 4, upgrade to suite, 25% discount for suite uprade, 2021-09-08, 2021-11-05, 8, 700.0, https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/05/16213722/Berlin_city_viewXL.jpg}'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.Integer] to type [com.ofir.coupons.beans.Coupon]
+
+Sun Sep 26 19:37:53 IDT 2021 | coupon purchase failed: coupon id 100 does not exist.
+
+could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+
+Sun Sep 26 19:39:32 IDT 2021 | coupon purchase failed: customer 22 already purchased coupon 61.
+
+could not execute statement; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not execute statement
+
+Sun Sep 26 19:46:19 IDT 2021 | coupon purchase failed: customer 22 already purchased coupon 52.
+
+Sun Sep 26 19:47:56 IDT 2021 | coupon update failed: coupon id 61 does not exist for company id 5.
+
+Sun Sep 26 19:51:20 IDT 2021 | coupon purchase failed: coupon id 100 does not exist.
+
+Sun Sep 26 19:52:35 IDT 2021 | coupon purchase failed: coupon 61 is sold out.
+
+Sun Sep 26 20:11:49 IDT 2021 | coupon purchase failed: coupon 52 has expired.
+
+Failed to convert from type [java.lang.Object[]] to type [com.ofir.coupons.beans.Coupon] for value '{58, 28, 1, double burger discount, 45% discount on all double burgers!, 2021-09-15, 2021-10-04, 12, 80.0, https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/05/16213722/Berlin_city_viewXL.jpg}'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.Integer] to type [com.ofir.coupons.beans.Coupon]
+
+Failed to convert from type [java.lang.Object[]] to type [com.ofir.coupons.beans.Coupon] for value '{58, 28, 1, double burger discount, 45% discount on all double burgers!, 2021-09-15, 2021-10-04, 12, 80.0, https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/05/16213722/Berlin_city_viewXL.jpg}'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.Integer] to type [com.ofir.coupons.beans.Coupon]
+
+Sun Sep 26 20:42:46 IDT 2021 | coupon purchase failed: customer 24 already purchased coupon 62.
+
+Sun Sep 26 20:57:05 IDT 2021 | Customer Login failed: Incorrect email(adam11@walla.com) or password(adam33) entered.
+
+Sun Sep 26 20:57:24 IDT 2021 | Customer Login failed: Incorrect email(adam11@gmail.com) or password(adam33) entered.
+
+detached entity passed to persist: com.ofir.coupons.beans.Company; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.ofir.coupons.beans.Company
+
+Mon Sep 27 23:42:41 IDT 2021 | Company Login failed: Incorrect email(bbb@gmail.com) or password(bbb) entered.
+
+Mon Sep 27 23:44:47 IDT 2021 | Company Login failed: Incorrect email(bbb@gmail.com) or password(bbb) entered.
+
+Mon Sep 27 23:48:26 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Tue Sep 28 00:05:31 IDT 2021 | Company Login failed: Incorrect email(bbb@gmail.com) or password(burgers4u) entered.
+
+Mon Oct 04 11:11:31 IDT 2021 | Company Login failed: Incorrect email(bbb@gmail.com) or password(burgers4u) entered.
+
+Mon Oct 04 11:12:09 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:14:51 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:16:15 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:21:23 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:21:41 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:23:15 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:26:21 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:29:37 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:31:47 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:33:08 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:34:20 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:40:54 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:49:14 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 11:51:43 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 12:01:59 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 12:21:00 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 04 12:21:17 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Mon Oct 11 18:04:09 IDT 2021 | Customer Login failed: Incorrect email(steven3@gmail.com) or password(steve2) entered.
+
+Failed to convert from type [java.lang.Object[]] to type [com.ofir.coupons.beans.Coupon] for value '{66, 28, 1, large burger with fries, 20% discount on meals, 2021-10-04, 2021-10-24, 14, 80.0, https://d2bgjx2gb489de.cloudfront.net/gbb-blogs/wp-content/uploads/2017/05/16213722/Berlin_city_viewXL.jpg}'; nested exception is org.springframework.core.convert.ConverterNotFoundException: No converter found capable of converting from type [java.lang.Integer] to type [com.ofir.coupons.beans.Coupon]
+
+Cannot invoke "com.ofir.coupons.beans.Customer.getId()" because "customer" is null
+
+Mon Oct 11 18:14:02 IDT 2021 | customer update failed: customer id 110 does not exist.
+
+could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+
+could not execute statement; SQL [n/a]; constraint [null]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+
+cannot set a coupon without a category
+
+cannot set a coupon without a category
+
+Thu Oct 14 13:33:54 IDT 2021 | coupon update failed: coupon id 0 does not exist for company id 30.
+
+Thu Oct 14 16:41:35 IDT 2021 | coupon delete failed: coupon id 71 does not exist for company id 30.
+
+Mon Oct 25 11:08:00 IDT 2021 | company add failed: company name 'Agadir' or email 'agadir@gmail.com' already exists.
+
+Mon Oct 25 11:08:30 IDT 2021 | company add failed: company name 'Agadir' or email 'agadir@gmail.com' already exists.
+
+Mon Oct 25 11:08:59 IDT 2021 | company add failed: company name 'Agadir' or email 'aga@gmail.com' already exists.
+
+Mon Oct 25 11:09:26 IDT 2021 | company add failed: company name 'comp' or email 'aga@gmail.com' already exists.
+
+Mon Oct 25 11:19:57 IDT 2021 | company update failed: company id -8 does not exist.
+
+Mon Oct 25 11:20:15 IDT 2021 | company update failed: company id 0 does not exist.
+
+Mon Oct 25 11:20:32 IDT 2021 | company update failed: company id 3 does not exist.
+
+Mon Oct 25 11:24:29 IDT 2021 | company delete failed: company id 100 does not exist.
+
+Mon Oct 25 11:24:42 IDT 2021 | company delete failed: company id -7 does not exist.
+
+Mon Oct 25 11:29:34 IDT 2021 | customer add failed: customer with email george@walla.com already exists!
+
+Mon Oct 25 11:38:36 IDT 2021 | customer update failed: customer id 110 does not exist.
+
+Mon Oct 25 11:38:55 IDT 2021 | customer update failed: customer id 0 does not exist.
+
+Mon Oct 25 11:39:23 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Mon Oct 25 11:42:25 IDT 2021 | customer delete failed: customer id 8 does not exist.
+
+Mon Oct 25 11:42:44 IDT 2021 | customer delete failed: customer id 0 does not exist.
+
+Mon Oct 25 11:43:14 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Mon Oct 25 11:54:45 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Mon Oct 25 11:55:12 IDT 2021 | coupon add failed: coupon title 'flight to Athens' already exists in company 7 coupons!
+
+Mon Oct 25 12:06:58 IDT 2021 | coupon add failed: coupon title 'flight to Athens' already exists in company 7 coupons!
+
+Mon Oct 25 12:13:01 IDT 2021 | coupon update failed: coupon id 0 does not exist for company id 7.
+
+Mon Oct 25 12:13:25 IDT 2021 | coupon update failed: coupon id 72 does not exist for company id 7.
+
+Mon Oct 25 12:14:28 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Mon Oct 25 12:27:02 IDT 2021 | coupon delete failed: coupon id 70 does not exist for company id 30.
+
+Mon Oct 25 12:27:30 IDT 2021 | coupon delete failed: coupon id 74 does not exist for company id 30.
+
+Mon Oct 25 12:28:03 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Mon Oct 25 12:29:02 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Tue Oct 26 21:08:54 IDT 2021 | Company Login failed: Incorrect email(aga@gmail.com) or password(agadir100) entered.
+
+Tue Oct 26 21:10:09 IDT 2021 | Company Login failed: Incorrect email(aga@gmail.com) or password(agadir100) entered.
+
+Wed Oct 27 19:29:49 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 19:30:17 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 19:32:13 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 19:33:19 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 19:34:55 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 19:56:01 IDT 2021 | Administrator Login failed: Incorrect email(admin@admin.com1) or password(admin) entered.
+
+Wed Oct 27 19:57:19 IDT 2021 | Administrator Login failed: Incorrect email(admin@admin.com1) or password(admin) entered.
+
+Wed Oct 27 19:57:47 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 20:08:56 IDT 2021 | company build failed: cannot set a company without an email
+
+Wed Oct 27 20:11:39 IDT 2021 | customer delete failed: customer id 11 does not exist.
+
+Wed Oct 27 20:20:34 IDT 2021 | company update failed: company id 28 does not exist.
+
+Wed Oct 27 20:21:47 IDT 2021 | company update failed: name of company 20 cannot be updated.
+
+Wed Oct 27 20:22:16 IDT 2021 | customer delete failed: customer id 11 does not exist.
+
+Wed Oct 27 20:23:08 IDT 2021 | company delete failed: company id 31 does not exist.
+
+Wed Oct 27 20:24:17 IDT 2021 | customer delete failed: customer id 11 does not exist.
+
+Wed Oct 27 20:24:37 IDT 2021 | customer delete failed: customer id 11 does not exist.
+
+Wed Oct 27 20:32:21 IDT 2021 | company id 28 does not exist.
+
+Wed Oct 27 20:33:51 IDT 2021 | customer delete failed: customer id 11 does not exist.
+
+Wed Oct 27 20:40:28 IDT 2021 | customer delete failed: customer id 11 does not exist.
+
+detached entity passed to persist: com.ofir.coupons.beans.Company; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.ofir.coupons.beans.Company
+
+detached entity passed to persist: com.ofir.coupons.beans.Company; nested exception is org.hibernate.PersistentObjectException: detached entity passed to persist: com.ofir.coupons.beans.Company
+
+Wed Oct 27 21:23:39 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 21:24:48 IDT 2021 | coupon add failed: coupon title 'burger and meal discount' already exists in company 17 coupons!
+
+Wed Oct 27 21:25:06 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 23:05:44 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Wed Oct 27 23:08:04 IDT 2021 | company add failed: company name 'comp' or email 'comp@gmail.com' already exists.
+
+Thu Oct 28 11:42:09 IDT 2021 | company add failed: company name 'comp' or email 'comp@gmail.com' already exists.
+
+Thu Oct 28 11:43:11 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:43:55 IDT 2021 | company update failed: company id 54 does not exist.
+
+Thu Oct 28 11:44:41 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:45:39 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:48:05 IDT 2021 | company delete failed: company id 20 does not exist.
+
+Thu Oct 28 11:48:39 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:49:03 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:50:25 IDT 2021 | company id 28 does not exist.
+
+Thu Oct 28 11:52:29 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:53:07 IDT 2021 | customer add failed: customer with email john@gmail.com already exists!
+
+Thu Oct 28 11:54:21 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:55:00 IDT 2021 | customer update failed: customer id 11 does not exist.
+
+Thu Oct 28 11:55:26 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:55:57 IDT 2021 | customer delete failed: customer id 11 does not exist.
+
+Thu Oct 28 11:56:32 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:56:51 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:57:26 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:58:07 IDT 2021 | customer id 18 does not exist.
+
+Thu Oct 28 11:58:41 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 11:59:06 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:00:45 IDT 2021 | Company Login failed: Incorrect email(elal@gmail.com) or password(burgers10) entered.
+
+Thu Oct 28 12:02:48 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:03:28 IDT 2021 | coupon add failed: coupon title 'flight to Rome' already exists in company 18 coupons!
+
+Thu Oct 28 12:04:08 IDT 2021 | coupon update failed: coupon id 72 does not exist for company id 18.
+
+Thu Oct 28 12:04:45 IDT 2021 | coupon update failed: coupon id 33 does not exist for company id 18.
+
+Thu Oct 28 12:06:10 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:06:56 IDT 2021 | coupon delete failed: coupon id 72 does not exist for company id 18.
+
+Thu Oct 28 12:07:18 IDT 2021 | coupon delete failed: coupon id 34 does not exist for company id 18.
+
+Thu Oct 28 12:07:37 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:08:02 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:08:23 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:08:47 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:09:06 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:09:22 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:09:38 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:09:53 IDT 2021 | Customer Login failed: Incorrect email(steve@walla.com) or password(steve123) entered.
+
+Thu Oct 28 12:11:11 IDT 2021 | coupon purchase failed: coupon id 70 does not exist.
+
+Thu Oct 28 12:13:44 IDT 2021 | coupon purchase failed: customer 15 already purchased coupon 33.
+
+Thu Oct 28 12:14:59 IDT 2021 | coupon update failed: coupon id 41 does not exist for company id 18.
+
+Thu Oct 28 12:16:24 IDT 2021 | coupon purchase failed: coupon 42 is sold out.
+
+Thu Oct 28 12:17:29 IDT 2021 | coupon purchase failed: coupon 42 has expired.
+
+Thu Oct 28 12:19:38 IDT 2021 | coupon purchase failed: coupon 42 has expired.
+
+Thu Oct 28 12:26:01 IDT 2021 | coupon purchase failed: customer 15 already purchased coupon 35.
+
+Thu Dec 02 00:14:49 IST 2021 | Administrator Login failed: Incorrect email(admin@admin.com) or password(admin2) entered.
+
+LOGIN FAILED: bad credentials
+
+Thu Dec 02 13:00:45 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 13:03:23 IST 2021 | Thu Dec 02 13:03:23 IST 2021 | company add failed: company name 'comp3' or email 'comp3@gmail.com' already exists.
+
+Thu Dec 02 13:03:44 IST 2021 | Thu Dec 02 13:03:44 IST 2021 | company add failed: company name 'comp5' or email 'comp3@gmail.com' already exists.
+
+Thu Dec 02 13:10:23 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 02 14:05:38 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 02 14:09:38 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 02 14:10:07 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 02 14:12:48 IST 2021 | ERROR: company name cannot be updated.
+
+Thu Dec 02 14:13:51 IST 2021 | ERROR: company id does not exist.
+
+Thu Dec 02 14:15:22 IST 2021 | ERROR: company id does not exist.
+
+Thu Dec 02 14:16:44 IST 2021 | ERROR: customer email already exists.
+
+Thu Dec 02 14:18:12 IST 2021 | ERROR: customer email already exists.
+
+Thu Dec 02 14:19:22 IST 2021 | ERROR: customer id does not exist.
+
+Thu Dec 02 14:20:26 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:21:00 IST 2021 | ERROR: customer id does not exist.
+
+Thu Dec 02 14:21:35 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:22:05 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:22:30 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:22:59 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:23:12 IST 2021 | ERROR: customer id does not exist.
+
+Thu Dec 02 14:23:56 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:25:17 IST 2021 | ERROR: coupon title already exists in company's coupons.
+
+Thu Dec 02 14:26:07 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:28:20 IST 2021 | ERROR: coupon id does not exist.
+
+Thu Dec 02 14:29:08 IST 2021 | ERROR: coupon id does not exist.
+
+Thu Dec 02 14:29:46 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:30:26 IST 2021 | ERROR: coupon id does not exist.
+
+Thu Dec 02 14:31:03 IST 2021 | ERROR: coupon id does not exist.
+
+Thu Dec 02 14:32:54 IST 2021 | ERROR: coupon id does not exist.
+
+Thu Dec 02 14:33:48 IST 2021 | ERROR: coupon id does not exist.
+
+Thu Dec 02 14:33:59 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:34:33 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:35:07 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:35:23 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:35:35 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:35:48 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:35:57 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:36:08 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:36:56 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 02 14:37:28 IST 2021 | ERROR: coupon id does not exist.
+
+Thu Dec 02 14:38:06 IST 2021 | ERROR: coupon has already been purchased.
+
+Thu Dec 02 14:39:42 IST 2021 | ERROR: coupon is sold out.
+
+Thu Dec 02 14:40:25 IST 2021 | ERROR: coupon has expired.
+
+Mon Dec 06 00:56:09 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 00:58:13 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 00:58:51 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 00:59:24 IST 2021 | ERROR: company name or email already exists.
+
+Mon Dec 06 01:00:25 IST 2021 | ERROR: company name or email already exists.
+
+Mon Dec 06 01:00:56 IST 2021 | ERROR: company id does not exist.
+
+Mon Dec 06 01:01:20 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 01:02:01 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 02:02:33 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 02:03:05 IST 2021 | ERROR: company name or email already exists.
+
+Mon Dec 06 02:04:05 IST 2021 | ERROR: company name or email already exists.
+
+Mon Dec 06 02:05:03 IST 2021 | ERROR: company name or email already exists.
+
+Mon Dec 06 02:11:48 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 02:12:27 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 02:12:53 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:18:12 IST 2021 | ERROR: company name or email already exists.
+
+Mon Dec 06 12:19:03 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:19:49 IST 2021 | ERROR: company name cannot be updated.
+
+Mon Dec 06 12:20:26 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:20:46 IST 2021 | ERROR: company id does not exist.
+
+Mon Dec 06 12:21:09 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:22:30 IST 2021 | ERROR: company does not exist.
+
+Mon Dec 06 12:22:46 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:22:59 IST 2021 | ERROR: company does not exist.
+
+Mon Dec 06 12:23:38 IST 2021 | ERROR: customer email already exists.
+
+Mon Dec 06 12:24:03 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:24:42 IST 2021 | could not execute statement; SQL [n/a]; constraint [customers.email_UNIQUE]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+
+Mon Dec 06 12:25:04 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:25:28 IST 2021 | ERROR: customer does not exist.
+
+Mon Dec 06 12:27:50 IST 2021 | ERROR: customer does not exist.
+
+Mon Dec 06 12:28:33 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:29:00 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:29:22 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:29:43 IST 2021 | ERROR: customer does not exist.
+
+Mon Dec 06 12:30:10 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:30:34 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:31:31 IST 2021 | ERROR: coupon title already exists in company's coupons.
+
+Mon Dec 06 12:32:11 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 06 12:33:33 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 06 12:33:48 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 06 12:36:28 IST 2021 | LOGIN FAILED: bad credentials
+
+Mon Dec 06 12:37:15 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 06 12:37:58 IST 2021 | ERROR: coupon has already been purchased.
+
+Wed Dec 08 23:29:13 IST 2021 | ERROR: company name or email already exists.
+
+Wed Dec 08 23:30:38 IST 2021 | ERROR: company name or email already exists.
+
+Wed Dec 08 23:34:55 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 00:06:53 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 00:28:38 IST 2021 | Cannot invoke "org.springframework.core.env.Environment.getProperty(String)" because "this.environment" is null
+
+Thu Dec 09 00:35:27 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 00:41:03 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 12:12:22 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 12:13:16 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 12:14:37 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 12:28:07 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 12:29:33 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 09 12:40:25 IST 2021 | ERROR: company name or email already exists.
+
+Mon Dec 13 16:18:41 IST 2021 | ERROR: company name or email already exists.
+
+Mon Dec 13 16:19:39 IST 2021 | ERROR: company does not exist.
+
+Mon Dec 13 16:20:12 IST 2021 | ERROR: company name cannot be updated.
+
+Mon Dec 13 16:20:44 IST 2021 | could not execute statement; SQL [n/a]; constraint [companies.email_UNIQUE]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
+
+Mon Dec 13 16:21:52 IST 2021 | ERROR: company does not exist.
+
+Mon Dec 13 16:23:06 IST 2021 | ERROR: company does not exist.
+
+Mon Dec 13 16:24:03 IST 2021 | ERROR: customer email already exists.
+
+Mon Dec 13 16:24:31 IST 2021 | ERROR: customer does not exist.
+
+Mon Dec 13 16:25:40 IST 2021 | ERROR: customer does not exist.
+
+Mon Dec 13 16:27:36 IST 2021 | ERROR: customer does not exist.
+
+Mon Dec 13 16:28:16 IST 2021 | ERROR: coupon title already exists in company's coupons.
+
+Mon Dec 13 16:29:08 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 13 16:30:30 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 13 16:30:51 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 13 16:31:02 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 13 16:33:20 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 13 16:34:05 IST 2021 | ERROR: coupon has already been purchased.
+
+Mon Dec 13 16:35:04 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 13 16:36:15 IST 2021 | ERROR: coupon is sold out.
+
+Mon Dec 13 16:36:52 IST 2021 | ERROR: coupon has expired.
+
+Mon Dec 13 16:37:55 IST 2021 | ERROR: coupon has expired.
+
+Mon Dec 13 16:38:12 IST 2021 | ERROR: coupon does not exist.
+
+Mon Dec 13 18:26:48 IST 2021 | ERROR: company does not exist.
+
+Thu Dec 16 00:30:00 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 16 00:31:52 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 16 00:32:40 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 16 00:33:19 IST 2021 | ERROR: company does not exist.
+
+Thu Dec 16 00:36:11 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 16 00:39:19 IST 2021 | ERROR: company name cannot be updated.
+
+Thu Dec 16 00:39:49 IST 2021 | ERROR: company does not exist.
+
+Thu Dec 16 00:40:11 IST 2021 | ERROR: company does not exist.
+
+Thu Dec 16 00:41:01 IST 2021 | ERROR: customer email already exists.
+
+Thu Dec 16 00:41:27 IST 2021 | ERROR: customer does not exist.
+
+Thu Dec 16 00:41:49 IST 2021 | ERROR: customer does not exist.
+
+Thu Dec 16 00:42:12 IST 2021 | ERROR: customer does not exist.
+
+Thu Dec 16 00:42:54 IST 2021 | ERROR: coupon title already exists in company's coupons.
+
+Thu Dec 16 00:43:30 IST 2021 | ERROR: coupon does not exist.
+
+Thu Dec 16 00:44:17 IST 2021 | ERROR: coupon does not exist.
+
+Thu Dec 16 00:45:23 IST 2021 | ERROR: coupon does not exist.
+
+Thu Dec 16 00:49:59 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 16 00:51:40 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 16 00:52:11 IST 2021 | LOGIN FAILED: bad credentials
+
+Thu Dec 16 13:31:23 IST 2021 | ERROR: company name or email already exists.
+
+Thu Dec 16 15:35:05 IST 2021 | ERROR: coupon does not exist.
+
+Thu Dec 16 15:35:45 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 17:59:13 IST 2021 | ERROR: company name or email already exists.
+
+Sat Dec 18 18:00:13 IST 2021 | ERROR: company name or email already exists.
+
+Sat Dec 18 18:00:55 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:01:23 IST 2021 | ERROR: company does not exist.
+
+Sat Dec 18 18:02:22 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:02:55 IST 2021 | ERROR: company does not exist.
+
+Sat Dec 18 18:03:18 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:03:40 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:04:05 IST 2021 | ERROR: company does not exist.
+
+Sat Dec 18 18:04:25 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:04:47 IST 2021 | ERROR: customer email already exists.
+
+Sat Dec 18 18:05:19 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:05:49 IST 2021 | ERROR: customer does not exist.
+
+Sat Dec 18 18:06:24 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:07:13 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:07:27 IST 2021 | ERROR: customer does not exist.
+
+Sat Dec 18 18:07:45 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:08:01 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:08:20 IST 2021 | ERROR: customer does not exist.
+
+Sat Dec 18 18:09:54 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:10:27 IST 2021 | ERROR: coupon title already exists in company's coupons.
+
+Sat Dec 18 18:10:54 IST 2021 | ERROR: coupon does not exist.
+
+Sat Dec 18 18:12:19 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:13:03 IST 2021 | ERROR: coupon does not exist.
+
+Sat Dec 18 18:13:28 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:13:48 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:14:02 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:14:15 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:14:53 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:15:43 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:16:23 IST 2021 | LOGIN FAILED: bad credentials
+
+Sat Dec 18 18:16:53 IST 2021 | ERROR: coupon does not exist.
+
+Sat Dec 18 18:17:55 IST 2021 | ERROR: coupon has already been purchased.
+
